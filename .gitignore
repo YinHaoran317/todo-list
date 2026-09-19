@@ -1,0 +1,40 @@
+# Dependencies and local runtime caches
+node_modules/
+.sites-runtime/
+.cache/
+.npm/
+
+# Local secrets (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Deployment archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# dist/ contains this project's authored HTML, CSS and JavaScript.
+# Keep dist/ and .openai/hosting.json tracked.
